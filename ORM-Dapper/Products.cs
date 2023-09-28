@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ORM_Dapper
 {
-    internal class Products
+    public class Products
     {
         public int ProductID { get; set; }
         public string Name { get; set; }

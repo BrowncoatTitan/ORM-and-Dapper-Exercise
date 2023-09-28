@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ORM_Dapper
 {
-    internal class DapperProductRepository : IProductRepository
+    public class DapperProductRepository : IProductRepository
     {
         private readonly IDbConnection _conn;
         public DapperProductRepository(IDbConnection conn)

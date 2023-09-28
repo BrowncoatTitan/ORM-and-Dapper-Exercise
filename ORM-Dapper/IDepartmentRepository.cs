@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ORM_Dapper
 {
-    public interface IDepatmentRepository
+    public interface IDepartmentRepository
     {
         IEnumerable<Department> GetAllDepartments();
     }
